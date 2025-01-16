@@ -1,0 +1,114 @@
+body{
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#f8fafa;
+
+}
+h1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(252, 251, 248);
+  text-shadow: 2px 2px 2px rgb(8, 8, 8);
+  font-size: 2.5rem;
+}
+
+.stopwatch{
+
+
+display:flex;
+flex-direction: column;
+align-items: center;
+border: 5px solid;
+border-radius: 50px;
+background-color: rgb(170, 168, 168);
+padding:30px;
+
+
+
+}
+
+
+.display{
+
+
+  font-size: 5rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  color:rgb(252, 251, 248);
+  text-shadow: 2px 2px 2px rgb(8, 8, 8);
+  margin-bottom: 25px;
+
+
+}
+
+
+
+.controls button{
+
+font-size: 1.5rem;
+font-weight:bold;
+padding: 10px 20px;
+margin: 5px;
+min-width: 125px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: whitesmoke;
+transition: background-color 0.5s ease;
+
+}
+
+
+
+.start-button{
+
+background-color: green;
+
+
+}
+
+
+.start-button:hover{
+
+  background-color: rgb(1, 99, 1);
+
+
+  }
+
+
+
+
+  .stop-button{
+
+    background-color: rgb(167, 24, 5);
+    
+    
+    }
+    
+    
+    .stop-button:hover{
+    
+      background-color: rgb(119, 26, 3);
+    
+    
+      }
+
+
+
+      .reset-button{
+
+        background-color: rgb(5, 53, 185);
+ 
+ 
+        }
+
+
+        .reset-button:hover{
+
+          background-color:  rgb(3, 36, 128);
+ 
+
+          }
+
+ 
